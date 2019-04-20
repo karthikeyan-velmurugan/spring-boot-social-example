@@ -1,4 +1,4 @@
 # Spring Boot Social Example
-# - Facebook
-# - Google
-# - Twitter
+- Facebook
+- Google
+- Twitter
