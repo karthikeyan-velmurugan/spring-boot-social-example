@@ -1,1 +1,4 @@
-# spring-boot-social-example
+# Spring Boot Social Example
+# - Facebook
+# - Google
+# - Twitter
