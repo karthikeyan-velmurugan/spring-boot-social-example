@@ -5,7 +5,7 @@ spring:
     datasource:
         url: jdbc:mysql://localhost:3306/spring_social?useSSL=false
         username: root
-        password: karthik
+        password: root
 
     jpa:
         show-sql: true
@@ -20,23 +20,23 @@ spring:
         client:
           registration:
             google:
-              clientId: 861639082773-nq1oil2gfn4hd9fucm7g1vot7t2g5i1e.apps.googleusercontent.com
-              clientSecret: fQD3wO6OLuqxewkR4ky4wPrD
+              clientId: #Enter your google client id
+              clientSecret: #Enter your google secret key
               redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
               #redirectUriTemplate: https://github.com/karthikeyan-velmurugan?tab=repositories
               scope:
                 - email
                 - profile
             facebook:
-              clientId: 177046313090402
-              clientSecret: 856acae40de9efd7312db6ecbb54ceeb
+              clientId: #Enter your facebook client id
+              clientSecret: #Enter your facebook secret key
               redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
               scope:
                 - email
                 - public_profile
             github:
-              clientId: Iv1.5afe5fe4f3b7597d
-              clientSecret: 4ebff4b5afb95f2b3b1eb987716f9e32bb612e93
+              clientId: #Enter your github client id
+              clientSecret: #Enter your github secret key
               redirectUriTemplate: "{baseUrl}/oauth2/callback/{registrationId}"
               scope:
                 - user:email
